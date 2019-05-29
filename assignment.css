@@ -1,0 +1,73 @@
+.left
+  {
+   background-color:#f1f1f1;
+   float: left;
+   width: 31.2%;
+   margin-left: 20px;
+   overflow: hidden;
+   border:2px solid black;
+  }
+  .centre
+  {
+   background-color:#f1f1f1;
+   float: left;
+   width: 31.2%;
+   margin-left: 20px;
+   overflow: hidden;
+   border:2px solid black;
+  }
+  .right
+  {
+   background-color:#f1f1f1;
+   float: left;
+   width: 31.2%;
+   margin-left: 20px;
+   overflow: hidden;
+   border:2px solid black;
+  }
+  .rights
+  {
+   background: white;
+   width: 85px;
+   float: right;
+   margin-top: 0px;
+   border: 1px solid red;
+  }
+@media screen and (max-width: 991px)
+{
+  .left
+  {
+      width: 50%;
+      margin-right: 15px;
+      padding: 0;
+  }
+  .centre
+  {
+      width: 50%;
+      margin-right: 15px;
+      padding: 0;
+  }
+  .right
+  {
+      width: 100%;
+      margin-right: 15px;
+      margin-top: 20px;
+      overflow: hidden;
+  }
+  .rights
+  {
+      width: 25%;
+      float: right;
+      background: white;
+      border: 1px solid red;
+
+  }
+}
+@media screen and (max-width: 767px)
+{
+  .left,.centre,.right
+  {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
